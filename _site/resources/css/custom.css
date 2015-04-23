@@ -1,1 +1,38 @@
 /* It is recommended to place all your extra/additional CSS rules here */
+/*.vegas-overlay {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier 
+}*/
+body{
+	background-color: gray;
+}
+#about .content{
+
+  background-color: #000;
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  -webkit-box-shadow: 0 2px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 40px rgba(0,0,0,0.3);
+  background-clip: padding-box;
+
+/*
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+
+	background-color: rgb(158, 157, 157);
+  	border-radius: 5px;*/
+}
+@media(max-width:767px){ 
+	p.feature-paragraph{
+		padding-bottom: 15px;
+	}
+	#about .section-title{
+		padding-top: 15px;
+	}
+}
+p.email{
+	font-size: 10px;
+}
